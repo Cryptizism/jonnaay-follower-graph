@@ -51,7 +51,7 @@ function searchUser() {
   if (index !== -1) {
     Plotly.Fx.hover(chartContainer, [{ curveNumber: 0, pointNumber: index }]);
   } else {
-    console.log("Username not found");
+    window.alert("Username not found");
   }
 }
 
