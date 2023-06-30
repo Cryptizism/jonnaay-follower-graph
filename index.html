@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitch Follower Graph</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h1>Twitch Follower Graph</h1>
+  <div class="search">
+    <label for="searchInput">Search User:</label>
+    <input type="text" id="searchInput" placeholder="Enter Twitch username">
+    <button id="searchButton" onclick="searchUser()">Search</button>
+  </div>
+  <div id="chart"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #chart {
+    height: 400px;
+  }
+  
+
+  #chart > div > div > svg:nth-child(5) > g > g.hovertext > rect, #chart > div > div > svg:nth-child(5) > g > g.hovertext > text.name, .axistext{
+    display: none;
+  }
